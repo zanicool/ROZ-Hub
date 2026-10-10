@@ -8,6 +8,9 @@ chmod +x install.sh && sudo ./install.sh
 ```
 
 ## Run
+After install, open **ROZ Hub** from the app menu. Pin it to the GNOME dash/taskbar by right-clicking the icon and choosing *Pin to Dash*.
+
+Or from a terminal:
 ```bash
 roz-hub
 ```

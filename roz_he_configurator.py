@@ -229,7 +229,8 @@ def round_rect(canvas, x1, y1, x2, y2, r=8, **kw):
 
 class App(tk.Tk):
     def __init__(self):
-        super().__init__()
+        # WM_CLASS must match StartupWMClass in roz-hub.desktop so the taskbar groups the window with its launcher
+        super().__init__(className="rozhub")
         self.title("ROZ Hub")
         self.geometry("1150x750")
         self.configure(bg=BG)

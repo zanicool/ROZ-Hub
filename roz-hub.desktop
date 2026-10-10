@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Name=ROZ Hub
+GenericName=Keyboard Configurator
+Comment=ROZ HE keyboard configurator
+Exec=/usr/local/bin/roz-hub
+Icon=roz-hub
+Terminal=false
+Categories=Settings;HardwareSettings;
+Keywords=keyboard;hall-effect;roz;
+StartupNotify=true
+StartupWMClass=Rozhub
