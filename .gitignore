@@ -2,3 +2,6 @@ __pycache__/
 *.pyc
 *.pyo
 .mypy_cache/
+.build/
+.build-venv/
+dist/
